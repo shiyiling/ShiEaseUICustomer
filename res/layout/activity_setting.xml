@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_setting_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <!--设置appkey-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/btn_blue_normal"
+            android:text="设置用户appkey"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/btn_blue_normal" />
+
+        <TextView
+            android:id="@+id/text_setting_appkey"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:hint="APPKEY"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+
+
+        <!--设置客服关联的IM服务号-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:text="设置IM关联账号"
+            android:textColor="@color/btn_blue_normal"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/btn_blue_normal" />
+
+        <TextView
+            android:id="@+id/text_setting_im_customer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:hint="IM服务号"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+
+        <!--用户个人信息设置-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:text="设置用户昵称"
+            android:textColor="@color/btn_blue_normal"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/btn_blue_normal" />
+
+        <TextView
+            android:id="@+id/text_setting_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:hint="昵称"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

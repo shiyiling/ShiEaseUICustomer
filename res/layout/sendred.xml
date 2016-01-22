@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FF6666">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="金额"
+        android:textSize="18sp"
+        ></TextView>
+    <EditText 
+        android:id="@+id/money"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:numeric="integer"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="祝福语"
+         android:textSize="18sp"
+        ></TextView>
+    <EditText
+        android:id="@+id/regards"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        />
+        
+    <Button 
+        android:id="@+id/sendredmoney"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送红包"
+        android:textSize="18sp"
+        android:background="#3399FF"
+        android:layout_gravity="center"></Button>
+</LinearLayout>
